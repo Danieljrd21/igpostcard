@@ -1,0 +1,52 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin: 50px;
+    border-radius: 10px;
+    background: white;
+    width: 400px;
+    height: 500px;
+}
+.encabezado {
+    font-size: 30px;
+    display: flex;
+   justify-content: space-between;
+   width: 400px;
+   height: 50px;
+}
+.info-user {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.info-user p {
+    margin: 5px;
+}
+.info-user img {
+    width: 50px;
+}
+.dots {
+    margin-right: 10px;
+}
+.imagen {
+    width: 400px;
+    height: 300px;
+}
+.iconos{
+    margin: 10px;
+    margin-bottom: 0;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+    display: flex;
+    width: 380px;
+    height: 30px;
+}
+.descripcion {
+    width: 380px;
+    height: 250px;
+    margin: 10px;  
+}
