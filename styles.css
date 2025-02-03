@@ -13,17 +13,36 @@ body {
 .encabezado {
     font-size: 30px;
     display: flex;
-   justify-content: space-between;
-   width: 400px;
-   height: 50px;
+    width: 400px;
+    height: 50px;   
+}
+div.profile{
+    width: 13%;
+}
+div.info-user{
+    margin-top: 1px;
+    flex-direction: column;
+    width: 90%;
+}
+.profile img {
+    border-radius: 10px;
+    height: 50px;
+    width: 60px;
 }
 .info-user {
+    font-size: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin: 5px;
 }
 .info-user p {
-    margin: 5px;
+    align-items: flex-start;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.extra{
+    font-size: 15px;
 }
 .info-user img {
     width: 50px;
